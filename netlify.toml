@@ -1,0 +1,7 @@
+[build]
+  publish = "common-ground-vscode"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
