@@ -12,7 +12,7 @@ const I18N = {
   en: {
     nav_explore: 'Explore',
     nav_share: 'Share',
-    nav_commute: 'Commute',
+    nav_commute: 'Routes',
     nav_updates: 'My updates',
     nav_profile: 'Profile',
     nav_plans: 'City plans',
@@ -54,7 +54,7 @@ const I18N = {
     resident_app: 'Resident app',
     city_workspace: 'City workspace',
     footer_brand: 'Common Ground · Giving mobility planning a human perspective.',
-    footer_meta: 'Interactive MVP · Demo data · Saved in this browser',
+    footer_meta: 'Saved in this browser',
     city_of_tartu: 'CITY OF TARTU',
     planning_workspace: 'Planning workspace',
     human_layer: 'The human layer',
@@ -184,7 +184,7 @@ const I18N = {
     feedback_follow_through: 'Feedback follow-through',
     start_with_proposal: 'Start with a proposal',
     compare_tradeoffs: 'Compare options and explain the trade-offs to invite informed feedback.',
-    resident_demo_profile: 'Resident demo profile · Kadri',
+    resident_demo_profile: 'Resident profile · Kadri',
     city_workspace_visible: 'Your response is now visible in the City workspace.',
     proposal_publish_prompt: 'Add a plain-language explanation for residents.',
     proposal_published: 'Proposal published to the resident app.',
@@ -210,6 +210,16 @@ const I18N = {
     the_loop_comes_back_to_you: 'The loop comes back to you',
     how_journey_affected: 'How would this affect your journey?',
     your_response: 'Your response',
+    consent_title: 'Privacy notice',
+    consent_intro: 'We can only record your commute trail with your clear consent. We store only the travel data you choose to share for this service, and we never publish your exact home address or personal details.',
+    consent_checkbox: 'I agree to record my commute trail for today and use it for local planning.',
+    consent_yes: 'Yes, record my route',
+    consent_no: 'No thanks',
+    consent_manage: 'Privacy & tracking',
+    consent_status_on: 'Tracking consent granted',
+    consent_status_off: 'No route tracking',
+    consent_notice: 'You can change this choice any time in your profile.',
+    consent_saved: 'Tracking preference updated.',
     vote_support: 'Support',
     vote_neutral: 'Neutral',
     vote_oppose: 'Oppose',
@@ -222,7 +232,7 @@ const I18N = {
   et: {
     nav_explore: 'Uurimine',
     nav_share: 'Jaga',
-    nav_commute: 'Lähetus',
+    nav_commute: 'Teekonnad',
     nav_updates: 'Minu uuendused',
     nav_profile: 'Profiil',
     nav_plans: 'Linna plaanid',
@@ -264,7 +274,7 @@ const I18N = {
     resident_app: 'Elaniku rakendus',
     city_workspace: 'Linna töölaud',
     footer_brand: 'Common Ground · Teeb liikuvuse planeerimise inimlikuks.',
-    footer_meta: 'Interaktiivne MVP · Demo andmed · Salvestatud selles brauseris',
+    footer_meta: 'Salvestatud selles brauseris',
     city_of_tartu: 'TARTU LINN',
     planning_workspace: 'Planeerimisruum',
     human_layer: 'Inimlik kiht',
@@ -320,12 +330,22 @@ const I18N = {
     live_reports: 'reaalajas teated',
     travel_time: 'reisi aeg',
     record_again: 'Salvesta uuesti',
-    start_tracking: 'Alusta jälgimist'
+    start_tracking: 'Alusta jälgimist',
+    consent_title: 'Privaatsusteade',
+    consent_intro: 'Reisi jälgimise salvestamiseks vajame selget nõusolekut. Salvestame ainult selle teenuse jaoks valitud teekonnaandmed ja me ei avalda kunagi teie täpset koduadressi ega isiklikke andmeid.',
+    consent_checkbox: 'Nõustun täna oma reisi jälgimise salvestamisega ja selle kasutamisega kohaliku planeerimisega.',
+    consent_yes: 'Jah, salvesta minu marsruut',
+    consent_no: 'Ei, tänan',
+    consent_manage: 'Privaatsus ja jälgimine',
+    consent_status_on: 'Jälgimisnõusolek antud',
+    consent_status_off: 'Marsruudi jälgimine väljas',
+    consent_notice: 'Seda valikut saate igal ajal profiilis muuta.',
+    consent_saved: 'Jälgimisvalik uuendatud.'
   },
   de: {
     nav_explore: 'Entdecken',
     nav_share: 'Teilen',
-    nav_commute: 'Pendeln',
+    nav_commute: 'Routen',
     nav_updates: 'Meine Updates',
     nav_profile: 'Profil',
     nav_plans: 'Stadtpläne',
@@ -367,7 +387,7 @@ const I18N = {
     resident_app: 'Bewohner-App',
     city_workspace: 'Stadt-Workspace',
     footer_brand: 'Common Ground · Macht die Mobilitätsplanung menschlich.',
-    footer_meta: 'Interaktives MVP · Demodaten · In diesem Browser gespeichert',
+    footer_meta: 'In diesem Browser gespeichert',
     city_of_tartu: 'STADT TARTU',
     planning_workspace: 'Planungs-Workspace',
     human_layer: 'Die menschliche Ebene',
@@ -424,6 +444,16 @@ const I18N = {
     travel_time: 'Reisezeit',
     record_again: 'Erneut aufzeichnen',
     start_tracking: 'Tracking starten',
+    consent_title: 'Datenschutzhinweis',
+    consent_intro: 'Wir können Ihre Pendelstrecke nur mit Ihrer klaren Einwilligung erfassen. Wir speichern nur die von Ihnen gewählten Reise- und Standortdaten für diesen Service und veröffentlichen Ihre genaue Adresse oder persönlichen Details nicht.',
+    consent_checkbox: 'Ich stimme zu, meine heutige Pendelstrecke aufzuzeichnen und für die lokale Planung zu verwenden.',
+    consent_yes: 'Ja, Route aufzeichnen',
+    consent_no: 'Nein, danke',
+    consent_manage: 'Datenschutz & Tracking',
+    consent_status_on: 'Tracking-Einwilligung erteilt',
+    consent_status_off: 'Keine Routenverfolgung',
+    consent_notice: 'Sie können diese Wahl jederzeit im Profil ändern.',
+    consent_saved: 'Tracking-Einstellung aktualisiert.',
     your_experience_matters: 'DEINE ERFAHRUNG ZÄHLT',
     human_perspective_title: 'Eine menschliche Perspektive<br>auf jede Reise.',
     human_perspective_copy: 'Eine schwierige Kreuzung. Eine verpasste Verbindung.<br>Eine gute Route. Helfen Sie Ihrer Stadt zu sehen,<br>was die Zahlen allein nicht sagen können.',
@@ -497,7 +527,7 @@ const I18N = {
     feedback_follow_through: 'Feedback-Fortsetzung',
     start_with_proposal: 'Beginnen Sie mit einem Vorschlag',
     compare_tradeoffs: 'Vergleichen Sie Optionen und erklären Sie die Abwägungen, um ein informiertes Feedback zu erhalten.',
-    resident_demo_profile: 'Demo-Profil des Bewohners · Kadri',
+    resident_demo_profile: 'Profil des Bewohners · Kadri',
     city_workspace_visible: 'Ihre Antwort ist nun im Stadt-Workspace sichtbar.',
     proposal_publish_prompt: 'Fügen Sie eine verständliche Erklärung für die Bewohner hinzu.',
     proposal_published: 'Vorschlag für die Bewohner-App veröffentlicht.',
@@ -535,7 +565,7 @@ const I18N = {
   zh: {
     nav_explore: '探索',
     nav_share: '提交',
-    nav_commute: '通勤',
+    nav_commute: '路线',
     nav_updates: '我的更新',
     nav_profile: '个人资料',
     nav_plans: '城市方案',
@@ -577,7 +607,7 @@ const I18N = {
     resident_app: '居民应用',
     city_workspace: '城市工作台',
     footer_brand: 'Common Ground · 让出行规划更有温度。',
-    footer_meta: '交互式 MVP · 演示数据 · 保存在此浏览器中',
+    footer_meta: '保存在此浏览器中',
     city_of_tartu: '塔尔图市',
     planning_workspace: '规划工作台',
     human_layer: '人文层',
@@ -707,14 +737,14 @@ const I18N = {
     feedback_follow_through: '反馈跟进',
     start_with_proposal: '先提出一个方案',
     compare_tradeoffs: '比较选项并解释取舍，以获得更充分的反馈。',
-    resident_demo_profile: '居民示例档案 · Kadri',
+    resident_demo_profile: '居民档案 · Kadri',
     city_workspace_visible: '你的回应现在已在城市工作台中可见。',
     proposal_publish_prompt: '为居民添加通俗易懂的说明。',
     proposal_published: '方案已发布到居民应用。',
     resident_app: '居民应用',
     city_workspace: '城市工作台',
     footer_brand: 'Common Ground · 让出行规划更有温度。',
-    footer_meta: '交互式 MVP · 演示数据 · 保存在此浏览器中',
+    footer_meta: '保存在此浏览器中',
     city_of_tartu: '塔尔图市',
     planning_workspace: '规划工作台',
     human_layer: '人文层',
@@ -791,21 +821,6 @@ const ROLE_OPTIONS = [
   { symbol: '♿', label: 'Accessibility needs' },
   { symbol: '♧', label: 'Parent / child' }
 ];
-
-const FEELING_OPTIONS = [
-  { symbol: '☹', label: 'Unsafe' },
-  { symbol: '−', label: 'Uncomfortable' },
-  { symbol: '☺', label: 'Good experience' }
-];
-
-function translateFeeling(value) {
-  const map = {
-    Unsafe: getText('feeling_unsafe'),
-    Uncomfortable: getText('feeling_uncomfortable'),
-    'Good experience': getText('feeling_good_experience')
-  };
-  return map[value] || value;
-}
 
 function translateRole(value) {
   const map = {
@@ -906,7 +921,6 @@ const seed = {
     {
       id: 'CG-1042',
       place: 'Riia crossing',
-      feeling: 'Unsafe',
       roles: ['Cyclist', 'Parent / child'],
       comment: 'Cars pass too close when Oskar and I cycle to football. The crossing is especially difficult after school.',
       status: 'Under review',
@@ -918,7 +932,6 @@ const seed = {
     {
       id: 'CG-1041',
       place: 'Maarjamõisa hospital',
-      feeling: 'Uncomfortable',
       roles: ['Public transport'],
       comment: 'My early shift starts at 06:00, before the first useful bus connection.',
       status: 'Received',
@@ -930,7 +943,6 @@ const seed = {
     {
       id: 'CG-1040',
       place: 'Emajõgi riverside',
-      feeling: 'Good experience',
       roles: ['Pedestrian'],
       comment: 'The riverside path feels calm and comfortable with children.',
       status: 'Planned',
@@ -949,7 +961,8 @@ const seed = {
     home: 'Tammelinn',
     work: 'City centre',
     preferredMode: 'Bike',
-    language: DEFAULT_LANGUAGE
+    language: DEFAULT_LANGUAGE,
+    trackingConsent: false
   },
   commuteSegments: [
     {
@@ -998,18 +1011,40 @@ const state = {
   cityTab: 'overview',
   step: 1,
   roles: [],
-  feeling: '',
+  transportMode: '',
+  timeKind: 'now',
+  observedAt: '',
+  timeWindow: 'school-morning',
+  recurringDetail: '',
+  photo: null,
+  photoLoading: false,
+  mapCategory: 'safety',
   place: '',
   comment: '',
   shareEntry: 'share',
   backTarget: null,
-  pin: { x: 48, y: 45 },
+  pin: null,
   filter: 'All experiences',
   query: '',
   selectedPlan: 'Protected cycle lane',
   language: DEFAULT_LANGUAGE,
   selectedSegmentId: 'segment-home-ria',
-  routeFocusSegment: null
+  selectedRouteId: null,
+  routeStart: DEMO_PLACES[0].label,
+  routeDestination: DEMO_PLACES[1].label,
+  routeMode: 'foot',
+  routeOrigin: null,
+  routeEnd: null,
+  useCurrentLocation: false,
+  routeBusy: false,
+  demoFeedbackEnabled: true,
+  routeError: '',
+  routeChoices: null,
+  routes: [],
+  routeFocusSegment: null,
+  consentPromptShown: false,
+  feedbackScores: neutralScores(),
+  feedbackAnswered: {}
 };
 
 let data = loadData();
@@ -1023,6 +1058,14 @@ function deepClone(value) {
 
 function normalizeData(source) {
   const merged = { ...seed, ...source };
+  const demoPoints = { 'CG-1042': [58.3731, 26.7162], 'CG-1041': [58.3678, 26.6905], 'CG-1040': [58.3844, 26.7289] };
+  merged.reports = (Array.isArray(source.reports) ? source.reports : deepClone(seed.reports)).map((report) => {
+    const point = demoPoints[report.id];
+    return point && !report.mine ? { ...report, lat: point[0], lng: point[1], isDemo: true, followed: report.followed ?? true } : report;
+  });
+  merged.reports = normalizePlanningReports(merged.reports);
+  merged.trafficEvidence = source.trafficEvidence || deepClone(REFERENCE_EVIDENCE);
+  merged.investigation = source.investigation || {status:'investigate',note:'Repeated low safety scores around school and commute times warrant closer investigation. Validate traffic evidence and observe crossing conditions before selecting measures.'};
   merged.profile = { ...seed.profile, ...(source.profile || {}) };
   merged.commuteSegments = (source.commuteSegments && source.commuteSegments.length ? source.commuteSegments : deepClone(seed.commuteSegments));
   merged.issueLog = (source.issueLog && source.issueLog.length ? source.issueLog : deepClone(seed.issueLog));
@@ -1034,18 +1077,20 @@ function normalizeData(source) {
 function loadData() {
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) return deepClone(seed);
+    if (!saved) return normalizeData(deepClone(seed));
     return normalizeData(JSON.parse(saved));
   } catch (error) {
-    return deepClone(seed);
+    return normalizeData(deepClone(seed));
   }
 }
 
 function saveData() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    return true;
   } catch (error) {
     toast('Storage unavailable. Changes will last for this session only.');
+    return false;
   }
 }
 
@@ -1154,66 +1199,66 @@ function getSelectedSegment() {
   return data.commuteSegments.find((segment) => segment.id === state.selectedSegmentId) || data.commuteSegments[0];
 }
 
-function map(interactive = false) {
-  const pins = interactive
-    ? `<span class="pin" style="left:${state.pin.x}%;top:${state.pin.y}%"><span>+</span></span>`
-    : data.reports.map((report, index) => `
-        <button
-          class="pin"
-          aria-label="Open feedback at ${escapeHtml(report.place)}"
-          style="left:${report.x}%;top:${report.y}%;background:${report.feeling === 'Good experience' ? '#67947b' : report.feeling === 'Unsafe' ? '#dc744e' : '#c8a654'}"
-          onclick="showReport(${index})"
-        >
-          <span>${index + 1}</span>
-        </button>
-      `).join('');
+function map(interactive = false) { return (interactive ? '' : categoryLayerMarkup()) + realMapMarkup(interactive ? 'pick' : 'reports'); }
 
-  return `
-    <div class="map" ${interactive ? 'onclick="pick(event)"' : ''}>
-      <svg viewBox="0 0 600 400" preserveAspectRatio="none" aria-label="${escapeHtml(getText('illustrative_map'))}">
-        <rect width="600" height="400" fill="#e9eddf"/>
-        <g fill="#d9e4cc">
-          <path d="M20 20h110v80H20zM380 20h90v120h-90zM70 270h130v100H70zM450 250h120v130H450z"/>
-        </g>
-        <path d="M470 -30 Q300 100 395 180 T300 430" fill="none" stroke="#b8d9d9" stroke-width="55"/>
-        <g stroke="#fff" stroke-width="13" fill="none">
-          <path d="M-10 150L620 260M100 -10L270 410M-10 320L610 70M300 -10L60 410M550 -10L480 410M-10 60L610 350"/>
-        </g>
-        <g stroke="#d4dbc9" stroke-width="2" fill="none">
-          <path d="M-10 150L620 260M100 -10L270 410M-10 320L610 70M300 -10L60 410M550 -10L480 410M-10 60L610 350"/>
-        </g>
-        <path d="M150 330L250 230L340 195L430 160" stroke="#67947b" stroke-width="6" stroke-dasharray="7 5" fill="none"/>
-        <g fill="#73816c" font-size="13" font-family="sans-serif">
-          <text x="70" y="120">TAMMELINN</text>
-          <text x="345" y="95">KESKLINN</text>
-          <text x="415" y="315">KARLOVA</text>
-          <text x="275" y="185">Riia</text>
-          <text x="45" y="360">Maarjamõisa</text>
-        </g>
-      </svg>
-      <div class="maptitle">⌕ &nbsp; Tartu · Neighbourhood voices</div>
-      ${pins}
-      <span class="caption">${getText('illustrative_map')} · ${interactive ? getText('tap_to_place_pin') : getText('select_pin_to_read_experience')}</span>
+function getSelectedRoute() {
+  return state.routes.find((route) => route.id === state.selectedRouteId) || state.routes[0] || null;
+}
+
+function initRouteMaps() { initRealMaps(); }
+
+function setTrackingConsent(allowed) {
+  data.profile.trackingConsent = Boolean(allowed);
+  data.profile.consentUpdatedAt = new Date().toISOString();
+  saveData();
+  closeModal();
+  render();
+  toast(getText('consent_saved'));
+}
+
+function showConsentModal(force = false) {
+  const modal = document.getElementById('modal');
+  if (!modal || (!force && state.consentPromptShown)) return;
+
+  state.consentPromptShown = true;
+  modal.innerHTML = `
+    <div class="overlay" onclick="if(event.target===this) closeModal()">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="consentTitle">
+        <div class="row">
+          <span class="eyebrow">GDPR</span>
+          <button class="secondary" onclick="closeModal()" aria-label="Close consent dialog">✕</button>
+        </div>
+        <h2 id="consentTitle">${getText('consent_title')}</h2>
+        <p>${getText('consent_intro')}</p>
+        <div class="card soft" style="padding:12px; margin:14px 0;">
+          <label for="trackingConsentBox" style="display:flex;align-items:flex-start;gap:10px; font-size:12px; line-height:1.5; color:var(--ink);">
+            <input id="trackingConsentBox" type="checkbox" />
+            <span>${getText('consent_checkbox')}</span>
+          </label>
+        </div>
+        <div class="row" style="margin-top:12px; gap:10px;">
+          <button class="secondary" onclick="setTrackingConsent(false)">${getText('consent_no')}</button>
+          <button class="primary" onclick="setTrackingConsent(document.getElementById('trackingConsentBox')?.checked ?? false)">${getText('consent_yes')}</button>
+        </div>
+        <p class="note" style="margin-top:12px">${getText('consent_notice')}</p>
+      </section>
     </div>
   `;
 }
 
-function pick(event) {
-  if (event.target.closest('.caption, .maptitle')) return;
-
-  const box = event.currentTarget.getBoundingClientRect();
-  state.pin = {
-    x: Math.min(91, Math.max(3, ((event.clientX - box.left) / box.width) * 100)),
-    y: Math.min(82, Math.max(15, ((event.clientY - box.top) / box.height) * 100))
-  };
-
-  state.place = document.getElementById('place')?.value || state.place;
-  state.comment = document.getElementById('comment')?.value || state.comment;
-  render();
+function ensureTrackingConsent() {
+  if (data.profile.trackingConsent === undefined || data.profile.trackingConsent === null) {
+    data.profile.trackingConsent = false;
+  }
+  if (!state.consentPromptShown && !data.profile.trackingConsent) {
+    showConsentModal();
+  }
 }
 
 function render() {
+  if (document.body) document.body.dataset.mode = state.mode;
   syncLanguageControl();
+  destroyMaps();
   const resBtn = document.getElementById('resbtn');
   const cityBtn = document.getElementById('citybtn');
   const app = document.getElementById('app');
@@ -1221,6 +1266,9 @@ function render() {
   if (resBtn) resBtn.className = state.mode === 'resident' ? 'active' : '';
   if (cityBtn) cityBtn.className = state.mode === 'city' ? 'active' : '';
   if (app) app.innerHTML = state.mode === 'resident' ? residentView() : cityView();
+  if (typeof window !== 'undefined') {
+    window.setTimeout(() => initRouteMaps(), 0);
+  }
 }
 
 function residentView() {
@@ -1296,11 +1344,8 @@ function phoneContent() {
       <h2>${getText('resident_browse_title').replace('.', '.<br>')}</h2>
       <p>${getText('resident_browse_sub')}</p>
       ${map()}
-      <div class="metric">
-        <div><b>${data.reports.filter((report) => report.feeling === 'Unsafe').length}</b><small>${getText('feel_unsafe')}</small></div>
-        <div><b>${data.reports.filter((report) => report.feeling === 'Uncomfortable').length}</b><small>${getText('feel_uncomfortable')}</small></div>
-        <div><b>${data.reports.filter((report) => report.feeling === 'Good experience').length}</b><small>${getText('good_experiences')}</small></div>
-      </div>
+      <p class="note">${mText('Community experience · average ratings', '社区体验 · 平均评分')}</p>
+      ${reportScoresMarkup(averageExperience(data.reports))}
       <button class="primary wide" onclick="nav('share')">＋ &nbsp; ${getText('share_experience')}</button>
       <div class="card soft" style="margin-top:16px;padding:14px">
         <b>${getText('more_routes_for_adventures')}</b>
@@ -1331,7 +1376,8 @@ function phoneContent() {
       <div class="card soft">
         <span class="tag">${escapeHtml(latest.id)}</span>
         <h3>${escapeHtml(latest.place)}</h3>
-        <p>${escapeHtml(latest.comment || latest.feeling)}</p>
+        ${reportContextMarkup(latest)}${reportScoresMarkup(latest)}
+        <p>${escapeHtml(latest.comment || getText('no_additional_comment'))}</p>
       </div>
       <div class="timeline">
         <p><b>1 · ${getText('received')}</b><br>${getText('shared_map')}</p>
@@ -1343,12 +1389,12 @@ function phoneContent() {
   }
 
   if (state.tab === 'updates') {
-    const mine = data.reports.filter((report) => report.mine);
+    const mine = data.reports.filter((report) => report.mine || report.followed);
 
     return `
       <span class="eyebrow">${getText('the_loop_comes_back_to_you')}</span>
       <h2>${getText('my_updates')}</h2>
-      <p>${getText('my_updates_sub')}</p>
+      <p>${mText('Your shared and followed experiences, and what happened next.', '你提交和关注的反馈，以及后续进展。')}</p>
       ${mine.length
         ? mine.map((report) => `
             <div class="card">
@@ -1356,8 +1402,10 @@ function phoneContent() {
                 <small>${escapeHtml(report.id)}</small>
                 <span class="badge good">${escapeHtml(report.status)}</span>
               </div>
+              <span class="tag">${report.mine ? getText('your_experience') : mText('Following', '已关注')}</span>
               <h3>${escapeHtml(report.place)}</h3>
-              <p>${escapeHtml(report.comment || report.feeling)}</p>
+              ${reportContextMarkup(report)}${reportScoresMarkup(report)}
+              <p>${escapeHtml(report.comment || getText('no_additional_comment'))}</p>
               ${report.reply
                 ? `<div class="card soft" style="padding:12px;margin:0"><b>${getText('city_response')}</b><p>${escapeHtml(report.reply)}</p></div>`
                 : `<p>${getText('received_by_city')}</p>`}
@@ -1397,49 +1445,14 @@ function phoneContent() {
           <span class="tag">${getText('in_preparation')}</span>
           <h3>${getText('safer_school_sport')}</h3>
           <p>${getText('city_is_exploring')}</p>
-          <button class="link" onclick="setMode('city'); cnav('scenarios')">Demo: explore options as the city →</button>
+          <button class="link" onclick="setMode('city'); cnav('scenarios')">Explore options as the city →</button>
         </div>
       `}
     <p class="note">${getText('estimates_note')}</p>
   `;
 }
 
-function renderCommuteView() {
-  const segment = getSelectedSegment();
-  const activeReports = data.issueLog || [];
-
-  return `
-    <span class="eyebrow">${getText('commute_title')}</span>
-    <h2>${getText('commute_route')}</h2>
-    <p>${getText('commute_summary')}</p>
-    <div class="metric">
-      <div><b>3</b><small>${getText('segments')}</small></div>
-      <div><b>${activeReports.length}</b><small>${getText('live_reports')}</small></div>
-      <div><b>18 min</b><small>${getText('travel_time')}</small></div>
-    </div>
-    <div class="segment-list">
-      ${data.commuteSegments.map((item) => `
-        <button class="segment-card ${item.id === segment.id ? 'selected' : ''}" onclick="state.selectedSegmentId='${item.id}'; render();">
-          <div>
-            <strong>${escapeHtml(item.name)}</strong>
-            <span>${escapeHtml(item.start)} → ${escapeHtml(item.end)} · ${escapeHtml(item.time)}</span>
-          </div>
-          <div class="segment-meta">
-            <span class="status-flag ${item.risk === 'High' ? 'urgent' : item.risk === 'Low' ? 'safe' : ''}">${escapeHtml(item.risk)}</span>
-          </div>
-        </button>
-      `).join('')}
-    </div>
-    <div class="card soft">
-      <b>${escapeHtml(segment.name)}</b>
-      <p>${escapeHtml(segment.summary)}</p>
-      <div class="row" style="margin-top:12px">
-        <button class="secondary" onclick="toggleCommuteTracking('${segment.id}')">${segment.status === 'Tracked' ? getText('record_again') : getText('start_tracking')}</button>
-        <button class="primary" onclick="openIssueFromSegment('${segment.id}')">${getText('report_this_segment')}</button>
-      </div>
-    </div>
-  `;
-}
+function renderCommuteView() { return routePlannerMarkup(); }
 
 function issueSummaryPanel() {
   const total = data.issueLog.length;
@@ -1497,6 +1510,12 @@ function profileView() {
           ${Object.entries(LANGUAGES).map(([code, label]) => `<option value="${code}" ${state.language === code ? 'selected' : ''}>${label}</option>`).join('')}
         </select>
       </div>
+      <div class="profile-card">
+        <span class="eyebrow">${getText('consent_manage')}</span>
+        <h2>${data.profile.trackingConsent ? getText('consent_status_on') : getText('consent_status_off')}</h2>
+        <p>${getText('consent_notice')}</p>
+        <button class="secondary" onclick="showConsentModal(true)">${getText('consent_manage')}</button>
+      </div>
     </div>
 
     <div class="route-grid" style="margin-top:16px">
@@ -1546,15 +1565,7 @@ function shareForm() {
     </div>
     ${state.step === 1
       ? `
-        <h2>${getText('share_step_title').replace(' ', '<br>')}</h2>
-        <p>${getText('share_step_copy')}</p>
-        <div class="roles">
-          ${ROLE_OPTIONS.map(({ symbol, label }) => `
-            <button class="choice ${state.roles.includes(label) ? 'selected' : ''}" aria-pressed="${state.roles.includes(label)}" onclick="toggleRole('${label}')">
-              <i>${symbol}</i>${translateRole(label)}
-            </button>
-          `).join('')}
-        </div>
+        ${contextIntroMarkup()}
         <div class="card soft">
           <h3>${getText('share_terms_title')}</h3>
           <p>${getText('share_terms_copy')}</p>
@@ -1570,15 +1581,15 @@ function shareForm() {
         ${map(true)}
         <label for="place">${getText('place_label')}</label>
         <input id="place" value="${escapeHtml(state.place)}" oninput="state.place=this.value" maxlength="100" placeholder="${getText('home_route_demo')}">
-        <div class="feelings">
-          ${FEELING_OPTIONS.map(({ symbol, label }) => `
-            <button class="choice ${state.feeling === label ? 'selected' : ''}" aria-pressed="${state.feeling === label}" onclick="state.feeling='${label}'; render()">
-              <i>${symbol}</i>${translateFeeling(label)}
-            </button>
-          `).join('')}
-        </div>
+        ${timeContextMarkup()}
+        ${renderExperienceSliders()}
         <label for="comment">${getText('what_happened')} <small>(optional)</small></label>
         <textarea id="comment" oninput="state.comment=this.value" maxlength="500" placeholder="${getText('add_context_placeholder')}">${escapeHtml(state.comment)}</textarea>
+        <label for="reportPhoto">${mText('Photo · optional', '照片 · 选填')}</label>
+        <input id="reportPhoto" type="file" accept="image/jpeg,image/png,image/webp" onchange="chooseReportPhoto(this)">
+        <p class="note">${mText('Up to 1 MB. Saved in this browser. Avoid identifying people or private addresses.', '最多 1 MB，保存在此浏览器。请避免包含可识别的人物或私人住址。')}</p>
+        ${photoMarkup({photo:state.photo})}
+        ${state.photo ? `<button class="link" onclick="state.photo=null;render()">${mText('Remove photo','移除照片')}</button>` : ''}
         <div class="row" style="margin-top:13px">
           <button class="secondary" onclick="goBackFromShare()">← ${state.routeFocusSegment || state.backTarget === 'commute' ? getText('back_to_commute') : getText('back_to_previous')}</button>
           <button class="primary" onclick="submitReport()">${getText('submit_experience')}</button>
@@ -1598,8 +1609,8 @@ function toggleRole(roleName) {
 }
 
 function nextStep() {
-  if (!state.roles.length) {
-    toast(getText('choose_perspective'));
+  if (!CONTEXT_MODES.includes(state.transportMode)) {
+    toast(mText('Choose a transport mode.', '请选择出行方式。'));
     return;
   }
 
@@ -1608,7 +1619,7 @@ function nextStep() {
 }
 
 function goBackFromShare() {
-  if (state.step > 1) {
+  if (state.step > 1 && state.shareEntry !== 'commute') {
     state.step = 1;
     render();
     return;
@@ -1622,10 +1633,13 @@ function goBackFromShare() {
   }
   state.place = '';
   state.comment = '';
-  state.feeling = '';
   state.roles = [];
+  state.pin = null;
+  state.feedbackScores = neutralScores();
+  state.feedbackAnswered = {};
   state.backTarget = null;
   state.shareEntry = 'share';
+  resetReportContext();
   render();
 }
 
@@ -1639,12 +1653,21 @@ function openIssueFromSegment(segmentId) {
   state.step = 2;
   state.place = segment.name;
   state.comment = `On my commute from ${segment.start} to ${segment.end}, I noticed a problem in this section.`;
-  state.feeling = 'Uncomfortable';
-  state.roles = [segment.mode === 'Public transport' ? 'Public transport' : 'Cyclist'];
+  state.pin = null;
+  state.feedbackScores = neutralScores();
+  state.feedbackAnswered = {};
+  resetReportContext();
+  state.transportMode = segment.mode === 'Public transport' ? 'Public transport' : 'Cycling';
+  state.roles = [];
   render();
 }
 
 function toggleCommuteTracking(segmentId) {
+  if (!data.profile.trackingConsent) {
+    showConsentModal();
+    return;
+  }
+
   const segment = data.commuteSegments.find((item) => item.id === segmentId);
   if (!segment) return;
   segment.status = segment.status === 'Tracked' ? 'Completed' : 'Tracked';
@@ -1658,20 +1681,36 @@ function submitReport() {
     return;
   }
 
-  if (!state.feeling) {
-    toast(getText('choose_feeling'));
+  if (!CONTEXT_MODES.includes(state.transportMode)) {toast(mText('Choose a transport mode.', '请选择出行方式。'));return;}
+  if (state.photoLoading) {toast(mText('Please wait for the photo to load.', '请等待照片加载完成。'));return;}
+  if (state.timeKind==='specific' && (!state.observedAt || Number.isNaN(new Date(state.observedAt).valueOf()))) {toast(mText('Add the time of your experience.', '请填写体验发生时间。'));return;}
+  const reportTime = state.timeKind==='recurring' ? {kind:'recurring',window:state.timeWindow,description:state.recurringDetail.trim()} : {kind:state.timeKind,at:state.timeKind==='specific'?new Date(state.observedAt).toISOString():new Date().toISOString()};
+  if (!validPoint(state.pin)) {
+    toast(mText('Tap the map to locate your experience before submitting.', '请先在地图上标记体验发生的位置。'));
     return;
   }
+  const scores = validScores(Object.fromEntries(Object.entries(state.feedbackScores).filter(([key]) => state.feedbackAnswered[key])));
+  if (!Object.keys(scores).length) {
+    toast(mText('Rate at least one dimension, or choose “Use this value”.', '请至少评价一个维度，或点击“使用此分值”。'));
+    return;
+  }
+  // Retain individual categories instead of reducing them to a three-way label.
 
   data.reports.unshift({
     id: 'CG-' + Date.now().toString().slice(-7),
     place: state.place.trim(),
-    feeling: state.feeling,
+    transportMode: state.transportMode,
+    time: reportTime,
+    contextVersion: 2,
+    photo: safePhoto(state.photo) ? state.photo : null,
     roles: [...state.roles],
     comment: state.comment.trim(),
     status: 'Received',
     reply: '',
     mine: true,
+    score: { ...scores },
+    createdAt: new Date().toISOString(),
+    isDemo: false,
     ...state.pin
   });
 
@@ -1681,127 +1720,41 @@ function submitReport() {
       title: 'Commute segment report',
       segment: state.routeFocusSegment,
       status: 'Received',
-      priority: state.feeling === 'Unsafe' ? 'High' : 'Medium',
+      priority: Number.isFinite(scores.safety) && scores.safety < 35 ? 'High' : 'Medium',
       createdAt: 'Today ' + new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     });
   }
 
-  saveData();
+  const persisted = saveData();
+  state.feedbackScores = neutralScores();
+  state.feedbackAnswered = {};
+  state.pin = null;
   state.tab = 'done';
+  resetReportContext();
+  prepareDemoFeedback();
   state.step = 1;
   state.place = '';
   state.comment = '';
-  state.feeling = '';
   state.roles = [];
   state.routeFocusSegment = null;
   state.backTarget = null;
   state.shareEntry = 'share';
 
   render();
-  toast('Experience shared. Thank you for adding your perspective.');
+  toast(persisted ? mText('Experience saved in this browser. Thank you!', '体验已保存到此浏览器，谢谢！') : mText('Browser storage is full or unavailable. This report will last for this session only.', '浏览器存储已满或不可用，此条反馈仅在当前会话中保留。'));
 }
 
-function cityView() {
-  return `
-    <div class="city">
-      <aside class="side">
-        <span class="eyebrow">CITY OF TARTU</span>
-        <h3>Planning workspace</h3>
-        ${['overview', 'feedback', 'scenarios', 'decisions']
-          .map((tabKey) => {
-            const labels = {
-              overview: ['▦', getText('tab_overview')],
-              feedback: ['◉', getText('tab_feedback')],
-              scenarios: ['⇄', getText('tab_scenarios')],
-              decisions: ['✓', getText('tab_decisions')]
-            };
-            const [icon, label] = labels[tabKey];
-            return `<button class="${state.cityTab === tabKey ? 'active' : ''}" onclick="cnav('${tabKey}')">${icon} &nbsp; ${label}</button>`;
-          }).join('')}
-        <div class="card soft" style="margin-top:80px;padding:15px">
-          <h3>${getText('human_layer')}</h3>
-          <p class="note">${getText('human_layer_copy')}</p>
-        </div>
-      </aside>
+function cityView() { return renderCityWorkspace(); }
 
-      <section>
-        <div class="cityhead">
-          <div>
-            <span class="eyebrow">${getText('city_of_tartu')}</span>
-            <h1>${getCityTabText(state.cityTab)}</h1>
-          </div>
-          <button class="secondary" onclick="exportData()">${getText('export_feedback')}</button>
-        </div>
-        <p style="margin-top:0">${getCitySummaryText(state.cityTab)}</p>
-        ${state.cityTab === 'overview' ? renderOverview() : state.cityTab === 'feedback' ? renderFeedback() : state.cityTab === 'scenarios' ? renderScenarios() : renderDecisions()}
-      </section>
-    </div>
-  `;
-}
-
-function renderOverview() {
-  return `
-    <div class="stats">
-      ${[
-        [getText('shared_experiences'), data.reports.length, getText('all_perspectives')],
-        [getText('need_review'), data.reports.filter((report) => report.status === 'Received').length, getText('waiting_for_response')],
-        [getText('safety_concerns'), data.reports.filter((report) => report.feeling === 'Unsafe').length, getText('lived_experience_signals')],
-        [getText('resident_responses'), data.vote ? 1 : 0, getText('current_proposal')]
-      ].map(([label, count, subtitle]) => `
-        <div class="card">
-          <small>${label}</small>
-          <b>${count}</b>
-          <small>${subtitle}</small>
-        </div>
-      `).join('')}
-    </div>
-
-    ${issueSummaryPanel()}
-
-    <div class="citygrid">
-      <div class="card">
-        <div class="row">
-          <h3>${getText('experience_layer')}</h3>
-          <span class="tag">● ${data.reports.length} ${getText('voices')}</span>
-        </div>
-        ${map()}
-        <div class="row" style="margin-top:14px">
-          <small>● ${getText('feeling_unsafe')} &nbsp; ● ${getText('feeling_uncomfortable')} &nbsp; ● ${getText('feeling_good_experience')}</small>
-          <span class="note">${getText('illustrative_map')}</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="row">
-          <h3>${getText('recent_experiences')}</h3>
-          <button class="link" onclick="cnav('feedback')">${getText('view_all')}</button>
-        </div>
-        ${data.reports.slice(0, 3).map((report, index) => reportRow(report, index)).join('')}
-      </div>
-    </div>
-
-    <div class="card dark row">
-      <div>
-        <span class="eyebrow" style="color:#ddec9f">${getText('from_experience_to_action')}</span>
-        <h2>${getText('safer_crossing')}</h2>
-        <p>${getText('explore_options')}</p>
-      </div>
-      <button class="secondary" onclick="cnav('scenarios')">${getText('compare_options_cta')}</button>
-    </div>
-  `;
-}
+function renderOverview() { return renderCityOverview(); }
 
 function renderFeedback() {
   return `
     <div class="toolbar">
       <input aria-label="Search feedback" placeholder="${getText('search_feedback')}" value="${escapeHtml(state.query)}" oninput="state.query=this.value; updateResults()">
       <select aria-label="Filter by experience" onchange="state.filter=this.value; updateResults()">
-        ${[
-          getText('filter_all_experiences'),
-          getText('filter_unsafe'),
-          getText('filter_uncomfortable'),
-          getText('filter_good_experience')
-        ].map((item) => `<option ${state.filter === item ? 'selected' : ''}>${item}</option>`).join('')}
+        <option value="All experiences">${getText('filter_all_experiences')}</option>
+        ${MOBILITY_CATEGORIES.map(({key,label})=>`<option value="${key}" ${state.filter===key?'selected':''}>${categoryText(label)}</option>`).join('')}
       </select>
     </div>
     <div class="card" id="results">${resultsList()}</div>
@@ -1815,8 +1768,8 @@ function updateResults() {
 
 function resultsList() {
   const list = data.reports.filter((report) => {
-    const matchesFilter = state.filter === 'All experiences' || report.feeling === state.filter;
-    const haystack = `${report.place} ${report.comment} ${report.roles.join(' ')}`.toLowerCase();
+    const matchesFilter = state.filter === 'All experiences' || Number.isFinite(validScores(report.score)[state.filter]);
+    const haystack = `${report.place} ${report.comment} ${(report.roles||[]).join(' ')} ${report.transportMode||''} ${reportTimeLabel(report)}`.toLowerCase();
     return matchesFilter && haystack.includes(state.query.toLowerCase());
   });
 
@@ -1825,7 +1778,7 @@ function resultsList() {
       <h3>${list.length} ${getText('resident_experiences')}</h3>
       <small>${getText('select_experience')}</small>
     </div>
-    ${list.map((report, index) => reportRow(report, index)).join('') || `<div class="empty">${getText('no_matching_experiences')}</div>`}
+    ${list.map((report) => reportRow(report, data.reports.indexOf(report))).join('') || `<div class="empty">${getText('no_matching_experiences')}</div>`}
   `;
 }
 
@@ -1833,10 +1786,12 @@ function reportRow(report, index) {
   return `
     <div class="report" role="button" tabindex="0" onclick="showReport(${index})" onkeydown="if(event.key==='Enter')showReport(${index})">
       <div class="row">
-        <b>${escapeHtml(report.place)}</b>
-        <span class="badge ${report.feeling === 'Good experience' ? 'good' : ''}">${escapeHtml(report.feeling)}</span>
+        <b>${report.author ? escapeHtml(report.author) + ' · ' : ''}${escapeHtml(report.place)}</b>
+        <span class="tag">${escapeHtml(translateStatus(report.status))}</span>
       </div>
+      ${reportContextMarkup(report)}${reportScoresMarkup(report)}
       <p>${escapeHtml(report.comment || getText('no_additional_comment'))}</p>
+    </div>
   `;
 }
 
@@ -1844,7 +1799,7 @@ function renderScenarios() {
   return `
     <div class="card soft">
       <b>Illustrative scenario comparison</b>
-      <p style="margin:6px 0">These are fixed demo assumptions, not outputs from an AI model or digital twin. Safety values illustrate a perceived-safety indicator. Validate with real evidence before making decisions.</p>
+      <p style="margin:6px 0">These are fixed scenario assumptions, not outputs from an AI model or digital twin. Safety values illustrate a perceived-safety indicator. Validate with real evidence before making decisions.</p>
     </div>
 
     <div class="plans">
@@ -2068,9 +2023,10 @@ function showReport(index) {
           <button class="secondary" onclick="closeModal()" aria-label="Close dialog">✕</button>
         </div>
         <h2 id="detailTitle">${escapeHtml(report.place)}</h2>
-        <span class="badge">${escapeHtml(report.feeling)}</span>
+        ${reportContextMarkup(report)}
+        ${reportScoresMarkup(report)}
         <p>${escapeHtml(report.comment || getText('no_additional_comment'))}</p>
-        <small>${escapeHtml(report.roles.join(' · '))}</small>
+        ${photoMarkup(report)}
         <div class="timeline">
           <p><b>✓ ${getText('received')}</b><br>Added to the shared experience layer.</p>
           <p><b>${escapeHtml(report.status)}</b><br>${escapeHtml(report.reply || getText('awaiting_city_response'))}</p>
@@ -2087,7 +2043,7 @@ function showReport(index) {
             <textarea id="reply" maxlength="1000" placeholder="What happens next, and why?">${escapeHtml(report.reply)}</textarea>
             <button class="primary wide" style="margin-top:16px" onclick="respond(${index})">${getText('save_update')}</button>
           `
-          : '<p class="note">Updates appear here when the city responds. This demo does not send emails or push notifications.</p>'}
+          : '<p class="note">Updates appear here when the city responds. Email and push notifications are unavailable.</p>'}
       </section>
     </div>
   `;

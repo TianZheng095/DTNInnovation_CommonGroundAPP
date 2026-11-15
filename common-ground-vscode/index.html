@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Common Ground · Mobility together</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css?v=20261115-routes1" />
+    <link rel="stylesheet" href="city-workspace.css?v=20261115-routes1" />
   </head>
   <body>
     <header>
@@ -37,12 +39,17 @@
 
     <footer>
       <span>Common Ground · Giving mobility planning a human perspective.</span>
-      <span>Interactive MVP · Demo data · Saved in this browser</span>
+      <span>Saved in this browser</span>
     </footer>
 
     <div id="modal"></div>
     <div id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="map-config.js?v=20261115-routes1"></script>
+    <script src="mobility.js?v=20261115-routes2"></script>
+    <script src="planning.js?v=20261115-routes1"></script>
+    <script src="city-workspace.js?v=20261115-routes1"></script>
+    <script src="app.js?v=20261115-routes1"></script>
   </body>
 </html>
 
